@@ -1,0 +1,26 @@
+{
+  "name": "ian-jennings.com",
+  "version": "0.0.1",
+  "description": "Packages to run ian-jennings.com",
+  "scripts": {
+    "dev": "harp server & browser-sync start --proxy 'localhost:9000' --files '**/*.ejs, **/*.md, **/*.less, **/_data.json'"
+  },
+  "dependencies": {
+    "harp": "^1.0.0"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spacecowboyian/ian-jennings.com"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Ian Jennings",
+  "contributors": [
+    "Ian Jennings <ian@ian-jennings.com> (http://ian-jennings.com)"
+  ],
+  "license": "MIT"
+}
