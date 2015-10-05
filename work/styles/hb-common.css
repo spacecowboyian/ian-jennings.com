@@ -1,0 +1,115 @@
+
+.contentBox.app {padding:10px; overflow:hidden; width:330px; background:#fff; margin-bottom:20px; -moz-box-shadow: 3px 3px 8px #999;}
+.contentBox.app.connected {width:295px; padding:0; }
+.contentBox.app .mod-header {overflow:hidden; margin-bottom:10px;}
+.contentBox.app.connected .mod-header {padding:10px 10px 0;}
+.contentBox.app .mod-header h6{font-size:.95em; color:#555; float:left;}
+.contentBox.app .mod-header a.mod-options {display:block; float:right; width:15px; height:16px; background:url(images/markit-module-button-options.png) no-repeat;}
+.contentBox.app .mod-header a.add-item {display:block; float:right; }
+.contentBox.app .mod-body {background:#f6f6f6; border:1px solid #e8e8e8; padding:10px;}
+.contentBox.app .mw-featured {margin:0;}
+.contentBox.app h3 {font-size:1.3em; margin:0;}
+.contentBox.app .mw-featured p {margin:0; color:#666; font-size:.85em; line-height:1.3em;}
+.contentBox.app li {margin:5px 0; border-bottom:1px solid #ccc;}
+.contentBox.app .tabs li {margin:0; border:none;}
+.contentBox.app .tabs li:first-child {margin-left:10px;}
+
+.contentBox.app .mod-header .mod-tabs {clear:both;}
+
+.sidebar .create-content a{display:block; background:#999; -moz-border-radius:5px; padding:10px; color:#fff; font-size:1.3em; text-align:center; margin:15px 15px 15px 0;}
+
+.contentBox.app#mod-case {border:none;}
+.contentBox.app#mod-case .list-research{border:1px solid #ccc; border-top:none;}
+.contentBox.app .list-research li {margin:0;}
+.list-research {height:300px; overflow:auto;}
+.list .item {background:#fff; border-bottom:2px solid #999; padding:10px;}
+.list .item h3 {font-size:1em; margin:0;}
+.list .item p {margin:0;}
+.list .item p.meta {font-size:.9em; color:#777;}
+.sidebar {width:400px; position:relative;   padding:0; overflow:hidden;}
+.sidebar #app-rail-nav {background:#888; padding:5px 10px 5px 35px; overflow:hidden; border-bottom:1px solid #ddd;}
+.sidebar #app-rail-nav h6 {float:left; color:#fff;}
+.sidebar #app-rail-nav .open-app-store {display:block; position:absolute; background:url("images/hub-bar-provider-arrow.png") no-repeat scroll 5px 5px transparent; width:28px; height:28px; top:0; margin-left:70px;}
+.sidebar #app-rail-nav #app-nav {float:right; padding:5px 5px;}
+.sidebar #app-rail-nav #app-nav ul li a {display:block; width:8px; height:8px; background:url(images/hub-apps-nav-icons.png) right; padding:0; margin-right:3px;}
+.sidebar #app-rail-nav #app-nav ul li.active a {background-position:left;}
+
+.sidebar #app-screen-container {width:20000px;}
+.sidebar .app-screen {float:left; margin-right:22px; padding-left:35px; padding-right:13px; height: 100%; padding-top:20px;}
+.sidebar .app-screen.promo {width:352px; height:1304px;}
+.sidebar .app-screen.active {margin-left:0;}
+
+.contentBox.app.connected {-moz-box-shadow: none; background:none;}
+.contentBox.app.connected .mod-header {margin:0; padding:10px; border-right:1px solid #bebebe;}
+.contentBox.app.connected .list {border-left:1px solid #ccc; border-top:1px solid #ccc;}
+.contentBox.app.connected .list .item {border-bottom:1px solid #ccc; border-right:1px solid #bebebe; background:#f5f5f5; margin:0; cursor:move;}
+.contentBox.app.connected .list .item:hover {background:#ddd;}
+.contentBox.app.connected .list .item h3 {font-weight:normal;}
+.contentBox.app.connected .list .item.static {background:#ddd; cursor:default;}
+.contentBox.app.connected .list .item.active {background:#fff; border-right:none;}
+.contentBox.app.connected .list .item.active h3 {font-weight:bold;}
+.contentBox.app.connected .list .item.static.active {} 
+.contentBox.app.connected .list .item p.meta {font-size:.8em; color:#777;}
+
+.contentBox.app#mod-directory .mod-body {padding:0;}
+#mod-directory-search {padding:10px; background:#eee; border-bottom:1px solid #aaa; overflow:hidden;}
+#mod-directory-search h4 {margin:0 0 5px; font-size:.9em; color:#555;}
+#mod-directory-search .search {float:left; width:200px; padding:7px 5px 5px; font-size:1em; color:#999; border:1px solid #ccc; -moz-border-radius-topleft:5px; -moz-border-radius-bottomleft:5px;}
+#mod-directory-search-drop {float:left; background:#fff; width:90px; padding:0; font-size:1em; color:#999; border:1px solid #ccc; border-left:none; height:25px; -moz-border-radius-topright:5px; -moz-border-radius-bottomright:5px; font-size:.9em;}
+.contentBox.app #mod-directory-search-drop li {border:none;}
+.contentBox.app #mod-directory-search-drop li a {padding:0 5px; border:none;}
+#mod-directory-search-drop .drop {margin-left:-1px; margin-top:2px; background:#fff; border:1px solid #ccc; border-top:none; width:90px;}
+.contentBox.app #mod-directory-search-drop .drop li {border-bottom:1px solid; margin:0;}
+.contentBox.app #mod-directory-search-drop .drop li.active {background:#ddd;}
+.contentBox.app #mod-directory-search-drop .drop li a {padding:5px; text-align:left;}
+
+#mod-directory-list {padding:10px 0; overflow:hidden;}
+#mod-directory-list .slider {width:1800px; height: 300px; background:#fff; overflow:hidden; border-top:1px solid #ccc;}
+#mod-directory-list .slider ul {margin:10px; border-top:1px solid #ddd;  float:left; width:310px;}
+#mod-directory-list .slider ul li {padding:10px 20px 10px 10px; border-bottom:1px solid #ddd; font-size:.9em; overflow:hidden; background:url(images/hub-module-list-arrow.png) no-repeat right; cursor:pointer; margin:0;}
+#mod-directory-list .slider ul li:hover {background-color:#fff;}
+#mod-directory-list .slider ul li a {font-weight:bold; color:#555; text-decoration:none;}
+#mod-directory-list .slider ul li .count {display:block; float:right; padding:2px 8px; background:#ddd; -moz-border-radius:5px; color:#555; margin-top:-2px;}
+#mod-directory-footer {padding:0 10px 5px;}
+#mod-directory-footer a {font-weight:bold; color:#777; font-size:.9em;}
+
+#mod-directory-list ul li.contact {padding:0; overflow:hidden;}
+#mod-directory-list ul li.list-header {padding:5px 0;}
+#mod-directory-list ul li.list-header .back {float:left; display:block; padding:7px 7px 6px; background:#ccc; margin-right:10px;}
+#mod-directory-list ul li.list-header h5 {font-size:1.2em; padding:5px 10px; margin:0; background:#333; color:#fff;}
+ul li.contact a.contact {display:block; padding:9px 10px 8px 30px; color:#333; background-color:#eee; font-weight:normal; background-image:url(images/hub-bar-IM-unavail.png); background-repeat:no-repeat; background-position: 6px 50%; }
+ul li.contact.active a {background-image:url(images/hub-bar-IM-available.png); background-repeat:no-repeat; background-position: 7px 50%;}
+ul li.contact img {width:35px; line-height:0;}
+ul li.contact p.meta {float:right; font-size:.8em; line-height:0; margin:0;}
+
+#mod-directory-list ul.vcard {background:#fff;}
+#mod-directory-list ul.vcard ul  {float:none; width:auto; padding:0;margin:0; border-top:none; font-size:1.2em;}
+#mod-directory-list ul.vcard li {margin:0; padding:0; background: none;}
+.vcard .left {float:left; width:156px;}
+.vcard .right {float:right; width:144px;}
+.vcard .right img {border:2px solid #ccc; width:135px; margin-top:15px;}
+.vcard .right h5 {margin-bottom:3px;}
+.vcard .foot {clear:both; overflow:hidden; margin-top:10px;}
+#mod-directory-list ul.vcard li li {padding:15px 5px; background:none;}
+.vcard .info .label {font-weight:bold; margin-right:5px;}
+.vcard .info p {margin-bottom:0; font-size:.9em;}
+#mod-directory-list ul.vcard li li.addy {border:none;}
+#mod-directory-list ul.vcard li ul.specailties li{border:none; padding:2px 0;}
+#mod-directory-list ul.vcard li .foot ul{border:none; margin-top:10px; background:#ddd; padding:5px;}
+#mod-directory-list ul.vcard li .foot ul li{margin:0; padding:0; border:none;}
+#mod-directory-list ul.vcard li .foot ul li a{font-weight:normal; font-size:.9em;}
+#mod-directory-list ul.vcard li .foot ul li a:hover {text-decoration}
+#mod-directory-list ul.vcard li .foot ul li#contact-wall {float:right}
+#mod-directory-list ul.vcard li .foot ul li#contact-follow a {background:#333; color:#fff; -moz-border-radius:3px;}
+#mod-directory-list ul.vcard li .foot ul li#contact-follow a:hover {background:#eee; color:#333; border:2px solid #777; padding:3px 8px;}
+#mod-directory-list ul.vcard li .foot ul li:last-child a {border:none;}
+
+
+
+
+
+
+
+
+
+

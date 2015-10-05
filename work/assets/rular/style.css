@@ -1,0 +1,9 @@
+
+body {background:#333;}
+body form {width:300px; margin:0 auto; text-align:center;}
+div.stage {position: relative; overflow: hidden; border:10px solid #111; margin:0 auto;}
+div.loop {opacity:.8; position:absolute; width: 200px; height: 200px; overflow: hidden; box-shadow:0 0 10px rgba(0,0,0,.5); border-radius:100px; -webkit-border-radius:100px; cursor:crosshair;}
+img.loop-image {position: absolute;}
+div.loop-dot {position: absolute; width:2px; height:2px; background:#333; margin-left:50%; margin-top:50%;}
+div.caliper {position:absolute; width:2px; height: 2px; background:red; z-index: 999}
+div.caliper span {color:#fff; display:block; background:rgba(0,0,0,.7); padding:2px; position: absolute; text-shadow: 1px 1px 2px #000; margin-top:3px; margin-left:3px;font-size:10px;}

@@ -1,0 +1,383 @@
+/*------------------------------------------
+/ Default Element Styles 
+/-----------------------------------------*/
+body {
+	background-color: #fff;
+}
+
+.sprite {
+	background: url(/Markit/Source/ResourceManager/IZtIR41u72NXqbdEX37PoA2/d/f/634347898758991390/Markit/Source/Content/Images/sprite.png) left top no-repeat;
+}
+
+/*------------------------------------------
+/ Common Page Elements Styles
+/-----------------------------------------*/
+.header {
+	background-image: -webkit-gradient(linear,leftbottom,lefttop,color-stop(0.14,#012a52), color-stop(0.57,#004b91) );
+	background-image: -moz-linear-gradient(centerbottom,#012a5214%,#004b9157%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#004b91',endColorstr='#012a52');
+}
+
+.headerWeb {
+	background-position: 0 -480px;
+}
+
+.header h2 {
+	background-position: 0 -25px;
+}
+
+.content {
+	background-color: #fff;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.pageNavigation .pageNavigationGroup {
+	border-top: 1px solid #cecece;
+}
+
+.pageNavigation .currentPage {
+	background-color: #003f79;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.footer {
+	background-color: #fafafA;
+	border-top: 1px solid #fff;
+}
+
+.footerLogo {
+	background-position: 0 -75px;
+}
+
+.contentBox {
+	border: 1px solid #D3D3D3;
+}
+
+.contentBoxBody {
+	border-top: 1px solid #D3D3D3;
+}
+
+.subSection {
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.section {
+	border-top: 2px solid #BCBCBC;
+}
+
+.tab {
+	border-bottom: 1px solid #D3D3D3;
+}
+
+ul.tab li {
+	border-top: 1px solid #D3D3D3;
+	border-left: 1px solid #D3D3D3;
+	border-right: 1px solid #D3D3D3;
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#ffffff',endColorstr='#ededec');
+/* for IE */
+	background: -webkit-gradient(linear,lefttop,leftbottom,from(#fff), to(#ededec));
+/* for webkit browsers */
+	background: -moz-linear-gradient(top,#fff,#ededec);
+/* for firefox 3.6+ */
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+}
+
+.tab li.active {
+	border-bottom: 2px solid #FFF;
+	background: #fff;
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled='false',startColorstr='#ffffff',endColorstr='#ededec');
+/* for IE */
+}
+
+ul.pipe li + li a {
+	border-left: 1px solid #ccc;
+}
+
+h2.contentBoxHeading {
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#F8F8F8',endColorstr='#EAEAEA');
+/* for IE */
+	background: -webkit-gradient(linear,lefttop,leftbottom,from(#F8F8F8), to(#EAEAEA));
+/* for webkit browsers */
+	background: -moz-linear-gradient(top,#F8F8F8,#EAEAEA);
+/* for firefox 3.6+ */
+}
+
+/*------------------------------------------
+/ Form Elements
+/-----------------------------------------*/
+input[type=text] {
+	background-color: #fff;
+	border: 1px solid #CDCCCC;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+input.search {
+	background-color: #fff;
+	background-position: -883px 3px;
+	border: 1px solid #CDCCCC;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* Select Menu */
+.ui-selectmenu {
+	border: 1px solid #CDCCCC;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.ui-selectmenu.ui-state-active {
+	border-bottom: none;
+	-moz-border-radius-bottomright: 0;
+	-moz-border-radius-bottomleft: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.ui-selectmenu-icon {
+	background: url(/Markit/Source/ResourceManager/IZtIR41u72NXqbdEX37PoA2/d/f/634347898758991390/Markit/Source/Content/Images/sprite.png) no-repeat;
+	background-position: -40px -5px;
+}
+
+.ui-selectmenu-menu-dropdown {
+	border: 1px solid #CDCCCC;
+	background: #fff;
+}
+
+.ui-selectmenu-menu li {
+	border-top: 1px dotted transparent;
+	border-bottom: 1px dotted transparent;
+	border-right-width: 0!important;
+	border-left-width: 0!important;
+}
+
+/* jQuery UI Datepicker 1.8.10 */
+.ui-datepicker {
+	width: 17em;
+	display: none;
+}
+
+.ui-datepicker .ui-datepicker-header {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#DEEBF5');
+/* for IE */
+	background: -webkit-gradient(linear,lefttop,leftbottom,from(#fff), to(#DEEBF5));
+/* for webkit browsers */
+	background: -moz-linear-gradient(top,#fff,#DEEBF5);
+/* for firefox 3.6+ */
+}
+
+.ui-datepicker th {
+	border: 0;
+}
+
+.ui-datepicker th span {
+	background: #93B9D7;
+}
+
+.ui-datepicker td {
+	border: 0;
+}
+
+.ui-datepicker td span,.ui-datepicker td a {
+	border: 1px solid #EBEAEA;
+}
+
+.ui-datepicker td span,.ui-datepicker td a:hover {
+	background: #eee;
+}
+
+.ui-datepicker td span,.ui-datepicker td a.ui-state-active {
+	background: #005690;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+	border: 2px solid #005690;
+	background: #fff;
+}
+
+.ui-datepicker-multi .ui-datepicker-group table {
+	border-top: 1px solid #A2CAE5;
+}
+
+.ui-datepicker-multi .ui-datepicker-group-first {
+	border-right: 1px solid #005690;
+}
+
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header {
+	border-left-width: 0;
+}
+
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0;
+}
+
+/* jQuery AutoComplete */
+.ui-autocomplete {
+	border: 1px solid #ddd;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8',endColorstr='#eaeaea');
+/* for IE */
+	background: -webkit-gradient(linear,lefttop,leftbottom,from(#f8f8f8), to(#eaeaea));
+/* for webkit browsers */
+	background: -moz-linear-gradient(top,#f8f8f8,#eaeaea);
+/* for firefox 3.6+ */
+}
+
+/*------------------------------------------
+/ Tables
+/-----------------------------------------*/
+table.standard tr,table.stripe tr {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+table.stripe tr.offRow td {
+	background: #F5F9F9;
+}
+
+/*------------------------------------------
+/ Section Specific Styles
+/-----------------------------------------*/
+.hoverBox {
+	background: #fff;
+	border: 2px solid #005690;
+}
+
+.hoverBox h2 {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#DEEBF5');
+/* for IE */
+	background: -webkit-gradient(linear,lefttop,leftbottom,from(#fff), to(#DEEBF5));
+/* for webkit browsers */
+	background: -moz-linear-gradient(top,#fff,#DEEBF5);
+/* for firefox 3.6+ */
+}
+
+.hoverBox .hoverBoxContent {
+	border-top: 1px solid #A2CAE5;
+}
+
+.hoverBox .hoverBoxArrow {
+	background-position: -100px -3px;
+}
+
+/*------------------------------------------
+/ Buttons / Icons
+/-----------------------------------------*/
+.button {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#dddddd');
+/* for IE */
+	background: -webkit-gradient(linear,lefttop,leftbottom,from(#fff), to(#ddd));
+/* for webkit browsers */
+	background: -moz-linear-gradient(top,#fff,#ddd);
+/* for firefox 3.6+ */
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+}
+
+.buttons.leftCarousel {
+	background-position: 0 -126px;
+	display: inline-block;
+}
+
+.buttons.rightCarousel {
+	background-position: -23px -126px;
+	display: inline-block;
+}
+
+.posArrow {
+	background-position: -20px -1px;
+}
+
+.negArrow {
+	background-position: -1px -1px;
+}
+
+.arrowDown {
+	background-position: -40px -5px;
+}
+
+.sortArrow {
+	background-position: -55px -5px;
+}
+
+
+
+
+#source-header-applist {background:#999; height: 45px; position: relative; margin-right:25px;}
+#source-header ul li {float:left;}
+#source-header ul li a {display:block; width:65px; height:45px; background:#333; text-align:center; line-height:60px; margin:0px 1px; font-size:10px; color:#99ccff;}
+#source-header ul li.active a {background:none; color:#fff}
+#source-header ul li.before a {-moz-border-radius-bottomright:5px;}
+#source-header ul li.after a {-moz-border-radius-bottomleft:5px;}
+#source-header ul li.ui-sortable-helper a{background:rgba(50,50,50,.8);}
+div#source-header-overflow {position:absolute; right:0; top:0;}
+a.overflow-button {display:block; height:45px; width:25px; background:red;}
+div#source-header-overflow ul {position:absolute; right:0; z-inxex:999;}
+div#source-header-overflow ul li {float:none;}
+.source-header-app-menu ul li.ui-sortable-placeholder {width:65px; margin:0 1px;}
+
+
+#source-header-appdrawer {margin-top:200px; width:695px; height:55px; overflow:hidden; background:#999;}
+#source-header-appdrawer ul{display: block; height:55px; float:left;}
+#source-header-appdrawer ul#bin {height:155px; width:100%; background:#666;}
+#source-header #source-header-appdrawer ul li a {margin:5px 1px 0;}
+#source-header-appdrawer a.overflow-button {float:left; margin:5px 0;}
+#source-header ul li.ui-sortable-helper.denied a {background:rgba(255,0,0,.6); color:#fff;}
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
