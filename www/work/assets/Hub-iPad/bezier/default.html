@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="jsDraw2D.js"></script>
+	<script type="text/javascript" src="rjs.1.3.js"></script>
+	<script type="text/javascript" src="rjs-dom.js"></script>
+	<script type="text/javascript" src="bezierWaveStacked.js"></script>
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+	<link rel="Stylesheet" href="bezierWave.css" />
+</head>
+<body>
+
+	<form>
+		<table class="formTable">
+			<tr>
+				<td><label>Data points: </label></td><td><input type="text" value="10" class="number" data-forSlider="dataPoints" /><div id="dataPoints" class="slider"></td>
+			</tr>
+			<tr>
+				<td><label>Percentage segments: </label></td>
+				<td><input type="text" class="number" value="10" data-forSlider="percentageSegments" /><div id="percentageSegments" class="slider"></div></td>
+			</tr>
+			<tr>
+				<td><label>Control point horizontal offset: </label></td>
+				<td><input type="text" class="number" value="0.5" data-forSlider="control" /><div id="control" class="slider"></div></td>
+			</tr>
+		</table>
+		<input id="generate" type="button" value="Generate New Points" />
+	</form>
+	<div id="canvas"></div>
+
+</body>
+</html>
