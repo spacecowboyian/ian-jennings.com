@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Packages to run ian-jennings.com",
   "scripts": {
-    "dev": "harp server & browser-sync start --proxy 'localhost:9000' --files '**/*.ejs, **/*.md, **/*.less, **/_data.json'"
+    "dev": "harp server & browser-sync start --proxy 'localhost:9000' --files '**/*.ejs, **/*.md, **/*.less, **/_data.json'",
+    "deploy": "harp compile && surge ./www"
   },
   "dependencies": {
     "harp": "^1.0.0"
