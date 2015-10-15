@@ -15,12 +15,7 @@ p {
 	margin-bottom: 20px;
 
 	h2 {
-		float: left;
-	}
-	
-	.ext-links {
-		float: right;
-		margin-top: 1px;
+		margin-bottom: 5px;
 	}
 }
 
@@ -62,7 +57,7 @@ li {
 	border-radius:5px;
 }
 
-div.main {
+.main {
 	margin:15px;
 }
 
@@ -79,7 +74,17 @@ div.main {
 }
 
 @media screen and (min-width: 568px) {
-	div.main {
+	.header {
+		h2 {
+			float: left;
+		}
+		.ext-links {
+			float: right;
+			margin-top: 1px;
+		}
+	}
+
+	.main {
 		width:500px;
 		margin:50px auto;
 	}
