@@ -4,7 +4,7 @@
   "description": "Packages to run ian-jennings.com",
   "scripts": {
     "dev": "harp server & browser-sync start --proxy 'localhost:9000' --files '**/*.ejs, **/*.md, **/*.less, **/_data.json'",
-    "build": "harp compile",
+    "build": "harp ./public ./www",
     "init": "harp init ./public",
     "deploy": "harp compile && surge ./www"
   },
