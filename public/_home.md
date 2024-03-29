@@ -1,4 +1,4 @@
-Over the years I’ve put myself in the shoes of e-learning students, consumers, news readers, market traders, physicians and patients. Through varied industries, in design or code there is one constant. Empathy for the user is the origin of everything I create.
+Over the years I put myself in the shoes of e-learning students, consumers, news readers, market traders, physicians and patients. Through varied industries, in design or code there is one constant. Empathy for the user is the origin of everything I create.
 
 Here are some of my doings. Further exploration is available [upon request](mailto:ian@ian-jennings.com)
 
