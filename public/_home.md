@@ -1,12 +1,6 @@
 Over the years I put myself in the shoes of e-learning students, consumers, news readers, market traders, physicians and patients. Through varied industries, in design or code there is one constant. Empathy for the user is the origin of everything I create.
 
-Here are some of my doings. Further exploration is available [upon request](mailto:ian@ian-jennings.com)
-
-### Chaperone
-
-[Demo page](http://datuhealth.github.io/chaperone)
-
-Chaperone is a lightweight, vanilla javascript plugin for creating responsive site tours.
+Most things I have done for the past 10 years live behind logins and firewalls of various companies but.. here are some of my doings. Further exploration is available [upon request](mailto:ian@futurehat.com)
 
 ### Daily Health Hub
 
