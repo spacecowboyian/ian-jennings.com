@@ -2,6 +2,12 @@ Over the years I put myself in the shoes of e-learning students, consumers, news
 
 Most things I have done for the past 10 years live behind logins and firewalls of various companies but.. here are some of my doings. Further exploration is available [upon request](mailto:ian@futurehat.com)
 
+### Creative Clothing
+
+[Website](https://creativeclothingkc.com)
+
+A local Kansas City apparel printing company needed a slick homepage, SEO, analyitics and inksoft integration and I was happy to oblige. The project is built in react using nextjs then built and deployed via github actions. Along with my coding skills I got to break out photoshop and figma for some design work on custom banners and even a [t-shirt](https://store.creativeclothingkc.com/creative_couture/shop/product-detail/1000122) or [two](https://store.creativeclothingkc.com/creative_couture/shop/product-detail/1000121).
+
 ### Daily Health Hub
 
 [Screen shots](https://goo.gl/photos/SWfZeYTP2UjM4NuH7)
@@ -97,19 +103,3 @@ Some samples of the branded UI created to show the new styles of hub.com and to 
 [Create new note](work/assets/protonotes-notes-new.png)
 
 An internal project to improve our communication tools around prototype feedback and revisions. This system would allow users to select areas of a prototype and create a note about that section. They could also create tags and link the area to another prototype to create a simple interactive click through prototype.
-
-### MCS Header
-
-[Interactive wireframe](work/assets/MCS/index.html)
-
-Another designer had come up with the concept for an overflow drawer of tools in a dock of sorts. I questioned the functionality of the design so I developed it out so we could play around with it and see how it actually worked. Drag the window so the top menu overflows into the drawer indicated by the flashing of the button on the right. Click the button to see the overflow. Drag items around between the dock and the overflow.
-
-I concluded that there was a better way and coded it as well for comparison and that is seen lower on the page. There is no more overflow and it also allows the user to only have a few tools in the main dock even if they may have access to many
-
-### Rular
-
-[Interactive Demo (Work in Progress)](work/assets/rular/index.html)
-
-I wanted to create a tool for doing a task that we designers have to do all the time, measuring our designs for developers. I have lots of plans for this but it is currently in its infancy.
-
-Mouse over the image and use the magnifier to click first on the end of your measurement. Find the end of the area to be measured and click again.
