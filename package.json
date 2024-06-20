@@ -6,7 +6,7 @@
     "dev": "harp ./public & browser-sync start --proxy 'localhost:9000' --files '**/*.ejs, **/*.md, **/*.less, **/_data.json'",
     "build": "harp ./public ./www",
     "init": "harp init ./public",
-    "deploy": "harp compile && surge ./www"
+    "deploy": "npm run build && surge ./www"
   },
   "dependencies": {
     "harp": "^0.46.1",

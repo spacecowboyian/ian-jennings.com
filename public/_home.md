@@ -1,6 +1,14 @@
-Over the years I put myself in the shoes of e-learning students, consumers, news readers, market traders, physicians and patients. Through varied industries, in design or code there is one constant. Empathy for the user is the origin of everything I create.
+> “Okay, I am a semi-professional race car driver and… an amateur tattoo artist.”
 
-Most things I have done for the past 10 years live behind logins and firewalls of various companies but.. here are some of my doings. Further exploration is available [upon request](mailto:ian@futurehat.com)
+<cite>Reese Bobby - Talladega Nights: The Ballad of Ricky Bobby</cite>
+
+Alright, “semi-professional race car driver” might be a stretch. I'm still stuck at "paying to race" vs. "getting paid to race" Additionally, I’ve never actually tattooed anyone. So, maybe that quote doesn’t quite cut it.
+
+Instead I’d say that I’m a professional user experience mechanic and a spirited driver of obscure vintage cars. I’ve got 20+ years of passion for great design and empathy for users fuels everything I create. Over the years, I've done laps in the shoes of e-learning students, consumers, market traders, physicians, and more. Alongside wrenches and sockets, my toolbox is packed with design, presentation, collaboration and production-ready frontend code.
+
+In conclusion: Ian makes good design. Ian likes cars and (most) cars like Ian.
+
+Most things I have done for the past 10 years live behind logins and firewalls of various companies but.. here are some of my doings. Further exploration is available [upon request](mailto:hello@ian-jennings.com)
 
 ### Creative Clothing
 
