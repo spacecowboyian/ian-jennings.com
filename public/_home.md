@@ -6,7 +6,7 @@ Alright, “semi-professional race car driver” might be a stretch. I'm still s
 
 Instead I’d say that I’m a professional user experience mechanic and a spirited driver of obscure vintage cars. I’ve got 20+ years of passion for great design and empathy for users fuels everything I create. Over the years, I've done laps in the shoes of e-learning students, consumers, market traders, physicians, and more. Alongside wrenches and sockets, my toolbox is packed with design, presentation, collaboration and production-ready frontend code.
 
-In conclusion: Ian makes good design. Ian likes cars and (most) cars like Ian.
+**In conclusion: Ian writes code for the glory of good UX. Ian likes cars and (most) cars like Ian.**
 
 Most things I have done for the past 10 years live behind logins and firewalls of various companies but.. here are some of my doings. Further exploration is available [upon request](mailto:hello@ian-jennings.com)
 
