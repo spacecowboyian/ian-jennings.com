@@ -10,6 +10,14 @@ Instead I’d say that I’m a professional user experience mechanic and a spiri
 
 Most things I have done for the past 10 years live behind logins and firewalls of various companies but.. here are some of my doings. Further exploration is available [upon request](mailto:hello@ian-jennings.com)
 
+### Outside Inside Outside Racing
+
+[Youtube](https://youtube.com/@oioracing)
+
+I'm the crew chief of the OIO Racing YouTube team, where my buddies and I bring our love for vintage cars (mostly Toyotas) from the track to your variably sized screen. Picture this: classic cars tearing up the track in autocross and rallycross events, with a generous helping grease as we wrench them into racing shape.
+
+As the lead driver of our video content, I juggle writing, shooting, editing, and speaking somewhat intelligently to camera. Through trial, error, and a lot of terrible jokes, I've boosted my skills in everything from motion graphics to sound mastering.
+
 ### Creative Clothing
 
 [Website](https://creativeclothingkc.com)
